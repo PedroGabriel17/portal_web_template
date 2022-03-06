@@ -1,0 +1,25 @@
+li.menu_item{
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s, background 0.4s, box-shadow 0.4s;
+}
+
+
+
+
+li.menu_item:hover{
+    box-shadow: 1px 1px 5px #555350;
+    background: white;
+    color: black;
+
+}
+
+
+div#part2{
+    background-image: url("./imgs/frota_azul.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    backface-visibility: visible;
+}
+
