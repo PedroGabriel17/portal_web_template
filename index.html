@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Portal Corporativo</title>
 </head>
-<body>
+<body class="">
 
-    <div class="h-screen bg-green-300">
+    <div class="relative h-screen bg-green-300">
 
         <!-- cabeçalho -->
-        <div id="header" class="flex justify-between h-20 bg-blue-600">
+        <div id="header" class="fixed top-0 left-0 z-30 w-full flex justify-between h-20">
             <!-- logo -->
             <div class="flex justify-center h-full w-1/4">
                 <div class="flex pl-10 items-center w-5/6">
@@ -28,14 +28,16 @@
             <div class="flex items-center justify-center w-2/6 h-full">
                 <div class="px-5 w-full">
                     <ul class="flex justify-between w-full">
-                        <li class="menu_item px-3 py-1 rounded-2xl"> <a href="servicos.html">Serviços</a></li>
-                        <li class="menu_item px-3 py-1 rounded-2xl"> <a href="contato.html">Contato</a></li>
-                        <li class="menu_item px-3 py-1 rounded-2xl"> <a href="sobre_nos.html">Sobre nós</a></li>
-                        <li class="menu_item px-3 py-1 rounded-2xl"><a href="trab_conosco.html">Trabalhe conosco</a></li>
+                        <li class="flex justify-center items-center menu_item px-3 py-1 rounded-2xl"> <a href="servicos.html">Serviços</a></li>
+                        <li class="flex justify-center items-center menu_item px-3 py-1 rounded-2xl"> <a href="contato.html">Contato</a></li>
+                        <li class="flex justify-center items-center menu_item px-3 py-1 rounded-2xl"> <a href="sobre_nos.html">Sobre nós</a></li>
+                        <li class="flex justify-center items-center menu_item px-3 py-1 rounded-2xl"><a href="trab_conosco.html">Trabalhe conosco</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        <!-- background azul do header -->
+        <div id="bg-header" class="fixed top-0 left-0 w-full h-20 bg-blue-600 z-20"></div>
 
 
 
@@ -45,7 +47,7 @@
                 
             </div>
 
-            <div class="w-full h-full z-10">
+            <div class="w-full h-full z-10 mt-20">
 
                 <div class="flex justify-center w-full mt-20">
                     <h1 class="text-2xl text-white font-bold">Rapidez e Segurança</h1>
