@@ -20,8 +20,21 @@ li.menu_item:hover{
     box-shadow: 2px 2px 10px #555350;
     background: white;
     color: black;
-
 }
 
+div#card{
+    font-size: medium;
+    box-shadow: none;
+    padding: none;
+    transition: box-shadow 0.4s, margin 0.4s, font-size 0.4s;
+}
 
+div#card:hover{
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px #6e6e6d;
+}
 
+svg#icon_card:hover{
+    width: 50px;
+}
